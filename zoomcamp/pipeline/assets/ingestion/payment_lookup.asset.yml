@@ -6,12 +6,12 @@
 # This is useful for small, static reference/lookup data.
 
 # TODO: Set the asset name (recommended: ingestion.payment_lookup).
-name: TODO_SET_ASSET_NAME
+name: ingestion.payment_lookup
 
 # TODO: Set platform type.
 # Docs: https://getbruin.com/docs/bruin/assets/seed
 # suggested type: duckdb.seed
-type: TODO
+type: duckdb.seed
 
 # Path to the CSV file (relative to this .asset.yml file).
 # Can also be a URL: https://example.com/data.csv
